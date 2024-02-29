@@ -3,7 +3,7 @@ $arabicIsEnable = App\Models\Control::where('key','ARABIC')->first()->enable;
   if(!$arabicIsEnable && isset($_GET['ln']) && $_GET['ln'] == 'ar')
     return false;
   $content = [];
-  if(isset($_GET['ln']) && $_GET['ln'] == 'fa')
+  if(isset($_GET['ln']) && $_GET['ln'] == 'fa'||true)
   {
       $langFlag = '_fa';
       $lang = 'fa';

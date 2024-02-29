@@ -1,6 +1,6 @@
 @extends('master')
 @php
-if(isset($_GET['ln']) && $_GET['ln'] == 'fa')
+if(isset($_GET['ln']) && $_GET['ln'] == 'fa'||true)
      {
         $content = [];
         $content[0] = '!!!متاسفیم';

@@ -4,7 +4,7 @@
 @endSection
 @php
   $content = [];
-  if(isset($_GET['ln']) && $_GET['ln'] == 'fa'){
+  if(isset($_GET['ln']) && $_GET['ln'] == 'fa'||true){
       $langFlag = '_fa';
   }
   elseif(isset($_GET['ln']) && $_GET['ln'] == 'ar'){

@@ -3,7 +3,7 @@
 @section('content')
 
 @php
-  if(isset($_GET['ln']) && $_GET['ln'] == 'fa')
+  if(isset($_GET['ln']) && $_GET['ln'] == 'fa'||true)
      {
      $langFlag = 'fa';
      $lang = '_fa';
