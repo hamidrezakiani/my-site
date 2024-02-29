@@ -1,0 +1,159 @@
+#login-modal {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-active{
+    opacity: 1 !important;
+    display: flex !important;
+}
+
+#modal-backdoor {
+    background-color: #000;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+}
+
+#login-modal-box{
+    width: 300px;
+    z-index: 1500;
+    position: fixed;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+#login-modal-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#login-modal-header span{
+    flex: 1;
+    text-align: center;
+    color: #002677;
+    background-color: #ccc;
+    padding: 15px 0;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#login-modal-content{
+    display: none;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    padding: 50px 0px 25px 0;
+}
+
+#register-modal-content {
+    display: none;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    padding: 50px 0px 25px 0;
+}
+
+.active-tab{
+    display: flex !important;
+}
+
+.login-email,.login-password{
+  padding: 5px 5px;
+  font-size: 14px;
+  color: #002677;
+  margin-bottom: 30px;
+border: none;
+  border-bottom: 2px solid #002677;
+  outline: none;
+  width: 80%;
+  text-align: right;
+  font-family: IranSans;
+}
+
+
+
+#login-modal-header .active{
+    background-color: #fff;
+}
+
+#login-modal-footer{
+    height: 80px;
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#register-modal-footer {
+    height: 80px;
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide-login-modal{
+   text-align: center;
+   flex: 1;
+   margin: 10px;
+   color: #00a9e0;
+   font-size: 14px;
+   border: 1px solid #00a9e0;
+   transition: all 0.5s;
+    padding: 7px 0;
+    cursor: pointer;
+}
+
+.hide-login-modal:hover{
+    color: #002677;
+    border: 1px solid #002677;
+}
+
+.error-text{
+    color: red;
+    font-size: 14px;
+    text-align: right;
+    width: 80%;
+}
+
+#login-button,#register-button{
+    flex: 1;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #002677;
+    transition: all 0.5s;
+    font-size: 14px;
+    margin: 10px;
+    padding: 8px 0;
+    cursor: pointer;
+}
+
+#login-button:hover{
+    background-color: #00a9e0;
+}
+
+#register-button:hover{
+    background-color: #00a9e0;
+}
+
+
+
+

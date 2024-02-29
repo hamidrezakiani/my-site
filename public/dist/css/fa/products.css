@@ -1,0 +1,85 @@
+#title{
+    text-align: center;
+}
+
+#download-book{
+    text-align: center;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+#download-book a{
+    color: #fff;
+    background-color: #002677;
+    display: flex;
+    flex-direction: row-reverse;
+    width: fit-content;
+    padding: 20px 70px;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+
+#download-book a:hover{
+    background-color: #007aff;
+}
+
+#products-section{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 5%
+}
+
+.product{
+    margin: 3%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.product-image{
+    height: 400px;
+    max-width: 100%;
+    width: fit-content;
+}
+
+@media only screen and (max-width: 600px) {
+  .product-image {
+        width: 100%;
+        height: fit-content;
+  }
+  .product {
+      margin: 2%;
+  }
+}
+
+.product-title{
+    width: 100%;
+    text-align: right;
+    color: #002677;
+}
+
+.product-link{
+    color: #002677;
+    background-color: #fff;
+    width: fit-content;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 8px 14px;
+    border: #002677 2px solid;
+    text-transform: uppercase;
+    transition: all 0.5s;
+    text-decoration: none;
+}
+
+.product-link:hover{
+    color: #007aff;
+    border: #007aff 2px solid;
+}
