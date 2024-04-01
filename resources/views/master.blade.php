@@ -374,9 +374,9 @@ $arabicIsEnable = App\Models\Control::where('key','ARABIC')->first()->enable;
                 </div>
 
               </div>
-              <a referrerpolicy='origin' style="background-color: #fff" target='_blank' href='https://trustseal.enamad.ir/?id=338554&Code=2160ExAQxhyfICEQbt5n'>
+              {{-- <a referrerpolicy='origin' style="background-color: #fff" target='_blank' href='https://trustseal.enamad.ir/?id=338554&Code=2160ExAQxhyfICEQbt5n'>
                 <img referrerpolicy='origin' src="{{asset('dist/images/enamad.png')}}" alt='' style='cursor:pointer' Code='2160ExAQxhyfICEQbt5n'>
-              </a>
+              </a> --}}
 
             </div>
         </div>
