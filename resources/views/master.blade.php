@@ -396,7 +396,7 @@ $arabicIsEnable = App\Models\Control::where('key','ARABIC')->first()->enable;
      <div id="mobile-footer">
         <div class="footer-logo">
           <a href="{{url($lnUrl)}}"><img class="footer-img" src="{{asset('dist/images/logo/logo.png')}}" width="100" height="100" alt=""></a>
-          
+          <a referrerpolicy='origin' style="background-color: #fff" target='_blank' href='https://trustseal.enamad.ir/?id=338554&Code=2160ExAQxhyfICEQbt5n'><img referrerpolicy='origin' src='https://trustseal.enamad.ir/logo.aspx?id=338554&Code=2160ExAQxhyfICEQbt5n' alt='' style='cursor:pointer' code='2160ExAQxhyfICEQbt5n'></a>
           <div class="contact-links">
             <span class="fab fa-linkedin contact-icon"></span>
             <span class="fab fa-twitter contact-icon"></span>
