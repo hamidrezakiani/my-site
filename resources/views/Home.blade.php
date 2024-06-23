@@ -155,6 +155,18 @@
               <a href="{{url('environment'.$langUrl)}}">{{$content[1]}}</a>
             </div>
         </div>
+         <div id="section-3">
+            <div id="section-3-image">
+               <img id="section-3-small-image" src="{{asset($homeData['homeEnvironmentImageSmall']->value)}}" width="100%" alt="">
+              <img id="section-3-large-image" src="{{asset($homeData['homeEnvironmentImageLarge']->value)}}" width="100%" alt="">
+            </div>
+            <div id="section-3-content">
+               <h1>msc دانلود اپلیکیشن زبان انگلیسی </h1>
+               <p style="text-align: center">برای دریافت اپلیکیشن از طریق لینک زیر اقدام کنید</p>
+
+              <a href="{{url('msc-1.2.5.apk')}}">دانلود</a>
+            </div>
+        </div>
         {{-- <div id="section-4">
             <img src="./dist/images/petro4.jpg" alt="">
             <h3>Mppc has published its Combined Annual Report 2021</h3>
